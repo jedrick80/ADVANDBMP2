@@ -66,7 +66,7 @@ death_words = [
 
 #Global variable containing hateful sentence terminators and their corresponding variations.
 joyful_words = [
-    'whoo', 'waha', ' haha'
+    'whoo', 'waha', ' haha',
     'ty', 'thankyou', 'thank you', 'thank u', 'thank god', 'thankgod'
     'salamat',
     'nc', 'galing'
