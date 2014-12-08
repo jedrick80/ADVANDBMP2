@@ -23,7 +23,7 @@ swear_words = [
     'dumbass'
 ]
 
-#Global variable conatining hate words and their corresponding variations.
+#Global variable containing hate words and their corresponding variations.
 hate_words = [
     'annoy',
     'not funny',
@@ -66,7 +66,7 @@ death_words = [
 
 #Global variable containing hateful sentence terminators and their corresponding variations.
 joyful_words = [
-    'whoo', 'waha'
+    'whoo', 'waha', ' haha'
     'ty', 'thankyou', 'thank you', 'thank u', 'thank god', 'thankgod'
     'salamat',
     'nc', 'galing'
