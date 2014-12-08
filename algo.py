@@ -11,7 +11,7 @@ fileNumber = 1
 
 #Global variable containing swear words and their corresponding variations.
 swear_words = [
-    'fuck', 'fuk', 'fvck', 'stfu'
+    'fuck', 'fuk', 'fvck', ' fml ', 'stfu',
     'shit', 'shet',
     'damn',
     'putangina', 'putang ina', 'tang ina', 'tangina', 'tngina', 'taena',
@@ -34,7 +34,7 @@ hate_words = [
     'shut up',
     'kurakot', 'kurakut', 'korakot', 'korakut',
     'utang na loob',
-    'peste', 'piste', 'pisti',
+    'peste', 'piste', ' pisti ',
     'grr',
     'bwisit', 'bwiset',
     'konsensya',
@@ -102,7 +102,7 @@ def evaluateTweet(tweet):
     for joy in joyful_words: #For all the joyful words
         if joy in tweet: #Check if the tweet contains a hate terminators
             negative = negative - 1
-    if negative > 1:
+    if negative > 0:
         return True
     return False
 
