@@ -11,12 +11,12 @@ fileNumber = 1
 
 #Global variable containing swear words and their corresponding variations.
 swear_words = [
-    'fuck', 'fuk', 'fvck', ' fml ', 'stfu',
+    'fuck', 'fuk', 'fvck', ' fml', 'stfu',
     'shit', 'shet',
     'damn',
     'putangina', 'putang ina', 'tang ina', 'tangina', 'tngina', 'taena',
     'gago', 'gag0', 'g@go',
-    ' bobo ', 'b0b0',
+    'bobo ', 'b0b0',
     'putris', 'putres',
     'kapal ng mukha', 'kapal ng muka', 'kpl ng mkha',
     'kupal',
@@ -33,8 +33,7 @@ hate_words = [
     'stupid',
     'shut up',
     'kurakot', 'kurakut', 'korakot', 'korakut',
-    'utang na loob',
-    'peste', 'piste', ' pisti ',
+    'peste', 'piste', 'pisti ',
     'grr',
     'bwisit', 'bwiset',
     'konsensya',
@@ -57,7 +56,7 @@ hate_terminators = [
 
 #Global variable containing hateful sentence terminators and their corresponding variations.
 death_words = [
-    'die',
+    ' die ',
     'namatay',
     'nalunod',
     'lunod',
